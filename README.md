@@ -9,5 +9,7 @@ Adds a few things to the base Docker ubuntu image:
 + add packages (curl, ...)
 + set locale to de_DE.UTF8 (german sort order, etc)
 
-created 2016-02-08 
+docker build ...
+
+updated 2016-02-08 
 
