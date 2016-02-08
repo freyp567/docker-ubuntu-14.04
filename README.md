@@ -5,8 +5,9 @@ My Ubuntu 14.04 base image for Docker containers.
 
 Adds a few things to the base Docker ubuntu image:
 
-+ set Ubuntu apt repository (.de)
++ set Ubuntu apt repository (trusty universe)
 + add packages (curl, ...)
++ set locale to de_DE.UTF8 (german sort order, etc)
 
 created 2016-02-08 
 
