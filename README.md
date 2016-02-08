@@ -9,7 +9,7 @@ Adds a few things to the base Docker ubuntu image:
 + add packages (curl, ...)
 + set locale to de_DE.UTF8 (german sort order, etc)
 
-docker build ...
+docker build -t freyp567/docker-ubuntu-14.04 .
 
 updated 2016-02-08 
 
