@@ -12,7 +12,7 @@ ENV REFRESHED 2016-02-17
 #RUN echo "deb http://de.archive.ubuntu.com/ubuntu/ trusty-updates main universe" >>/etc/apt/sources.list
 #RUN echo "deb-src http://de.archive.ubuntu.com/ubuntu/ trusty-updates main universe" >>/etc/apt/sources.list
 
-RUN DEBIAN_FRONTEND noninteractive \
+RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update && apt-get install -y \
     ca-certificates sudo curl git-core
 
